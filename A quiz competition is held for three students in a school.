@@ -1,0 +1,17 @@
+#include <stdio.h>
+//
+int main()
+{
+ int a,b,c,d=0,e=0,f=0,price;
+ printf("Enter the price amount:- ");
+ scanf("%d", &price);
+ printf("Enter the ages:- ");
+ scanf("%d,%d,%d", &a,&b,&c);
+ d=price*a/(a+b+c);
+ e=price*b/(a+b+c);
+ f=price*c/(a+b+c);
+ printf("%d,%d,%d",d,e,f);
+//
+//
+ return 0;
+}
